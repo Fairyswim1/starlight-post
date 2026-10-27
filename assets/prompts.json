@@ -22,5 +22,45 @@
         "transparent": true
       }
     ]
+  },
+  "rescueUpgrade": {
+    "tool": "built-in image_gen",
+    "generatedAt": "2026-10-27",
+    "path": "assets/rescue-atlas.png",
+    "transparent": true,
+    "roles": [
+      "stranded aviator",
+      "rescue dock",
+      "one-use fuel station",
+      "gate beacon"
+    ],
+    "frames": [
+      [
+        0,
+        0,
+        530,
+        724
+      ],
+      [
+        540,
+        0,
+        607,
+        724
+      ],
+      [
+        1150,
+        0,
+        480,
+        724
+      ],
+      [
+        1650,
+        0,
+        522,
+        724
+      ]
+    ],
+    "prompt": "Create ONE production game sprite atlas for a hand-painted cozy fantasy night-sky rescue strategy game, transparent background. Wide 4:1 horizontal canvas, four equal square cells in ONE ROW, generous empty transparent margins per cell, no borders, no text, no shadows crossing cells. Exactly four isolated game sprites centered at 12.5%,37.5%,62.5%,87.5% canvas width. Left to right: 1) adorable stranded aviator with bronze goggles and orange scarf standing on a tiny floating broken wooden platform, waving a glowing amber lantern, 2) safe rescue dock, small floating rocky island with teal canopy shelter and glowing landing pad, 3) magical fuel canister station with violet luminous crystal in a copper pump and hose on tiny base, 4) blue crystal beacon lever on bronze stone pedestal with cyan rings, a switch that unlocks a storm barrier. Consistent isometric three-quarter viewpoint, richly painted detailed game assets, strong silhouettes readable at 46 pixels, warm gold and teal lighting against genuine transparent alpha, gentle storybook adventure, nonviolent. Keep all four entirely inside their own square cell with at least 12 percent transparent inset. No background scene. No letters, numbers, watermarks or UI.",
+    "review": "Generated size 2172×724 instead of requested4:1. Used measured transparent gaps for per-frame SVG crops; restricted outer SVG CSS to avoid atlas bleed. No image regeneration or synthetic sprite replacement."
   }
 }

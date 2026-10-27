@@ -1,40 +1,70 @@
 TAP version 13
-# Subtest: axes are not quadrants; ordered pairs and signs are distinguished
-ok 1 - axes are not quadrants; ordered pairs and signs are distinguished
+# Subtest: ordered pairs, signs, axes and all four quadrants
+ok 1 - ordered pairs, signs, axes and all four quadrants
   ---
-  duration_ms: 1.8267
+  duration_ms: 1.981
   ...
-# Subtest: routing has correct signs, length and endpoints for every pair in the grid
-ok 2 - routing has correct signs, length and endpoints for every pair in the grid
+# Subtest: every coordinate pair has a unit-step Manhattan route in both orders
+ok 2 - every coordinate pair has a unit-step Manhattan route in both orders
   ---
-  duration_ms: 48.4975
+  duration_ms: 44.3687
   ...
-# Subtest: all 12 stages have solvable non-overlapping geometry; solver solution actually wins
-ok 3 - all 12 stages have solvable non-overlapping geometry; solver solution actually wins
+# Subtest: all 12 missions solved; replay checks independent fuel, time, capacity and deadline invariants
+ok 3 - all 12 missions solved; replay checks independent fuel, time, capacity and deadline invariants
   ---
-  duration_ms: 23.0888
+  duration_ms: 102.6185
   ...
-# Subtest: storm collision is atomic; changing axis order avoids first storm
-ok 4 - storm collision is atomic; changing axis order avoids first storm
+# Subtest: one seat: passing a second rescue while occupied does not collect them; wrong shelter does not deliver
+ok 4 - one seat: passing a second rescue while occupied does not collect them; wrong shelter does not deliver
   ---
-  duration_ms: 0.2301
+  duration_ms: 0.2411
   ...
-# Subtest: fuel, invalid coordinates, repeated letters and goal conditions
-ok 5 - fuel, invalid coordinates, repeated letters and goal conditions
+# Subtest: nearby-first strategy fails urgent mission; pickup alone never satisfies a deadline
+ok 5 - nearby-first strategy fails urgent mission; pickup alone never satisfies a deadline
   ---
-  duration_ms: 0.6597
+  duration_ms: 0.3269
   ...
-# Subtest: unreachable board returns null and zero fuel can still finish exactly
-ok 6 - unreachable board returns null and zero fuel can still finish exactly
+# Subtest: deadline and fuel boundaries allow success exactly on the final turn and final fuel unit
+ok 6 - deadline and fuel boundaries allow success exactly on the final turn and final fuel unit
   ---
-  duration_ms: 0.1802
+  duration_ms: 0.1689
   ...
-1..6
-# tests 6
+# Subtest: gates are a real prerequisite; changing axis order cannot bypass full-height barrier
+ok 7 - gates are a real prerequisite; changing axis order cannot bypass full-height barrier
+  ---
+  duration_ms: 1.1291
+  ...
+# Subtest: weather uses ARRIVAL time; waiting changes safe entry and costs no fuel
+ok 8 - weather uses ARRIVAL time; waiting changes safe entry and costs no fuel
+  ---
+  duration_ms: 0.6374
+  ...
+# Subtest: refuel is single-use and essential; rescue-first route runs out
+ok 9 - refuel is single-use and essential; rescue-first route runs out
+  ---
+  duration_ms: 0.9055
+  ...
+# Subtest: previews do not mutate state; invalid route is atomic; terminal state blocks actions
+ok 10 - previews do not mutate state; invalid route is atomic; terminal state blocks actions
+  ---
+  duration_ms: 0.6403
+  ...
+# Subtest: finale needs the switch, weather timing and refueling; help affects rewards
+ok 11 - finale needs the switch, weather timing and refueling; help affects rewards
+  ---
+  duration_ms: 51.0712
+  ...
+# Subtest: mission 9 offers a genuine time-versus-fuel tradeoff: both routes win
+ok 12 - mission 9 offers a genuine time-versus-fuel tradeoff: both routes win
+  ---
+  duration_ms: 0.3263
+  ...
+1..12
+# tests 12
 # suites 0
-# pass 6
+# pass 12
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 179.0283
+# duration_ms 317.709

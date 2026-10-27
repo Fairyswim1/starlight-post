@@ -1,27 +1,28 @@
 {
   "id": "starlight-post",
-  "title": "별빛 우편국",
-  "subtitle": "좌표로 잇는 밤하늘",
+  "title": "별빛 항로: 폭풍 구조대",
+  "subtitle": "좌표와 그래프로 세우는 구조 작전",
   "grade": 1,
-  "unit": "4-1 순서쌍과 좌표",
-  "description": "좌표로 비행선을 조종해 편지를 수거하고, 폭풍을 피해 우편함까지 배달하세요.",
+  "unit": "4-1 순서쌍과 좌표 · 4-2 그래프",
+  "description": "한 명씩 태우는 구조 비행선. 긴급 구조 순서, 관문 개방, 파고 그래프와 일회용 급유소를 조합해 12개 임무를 완수하세요.",
   "tags": [
-    "좌표평면",
-    "항로 설계",
-    "12 스테이지"
+    "좌표와 그래프",
+    "턴제 구조 전략",
+    "12개 임무"
   ],
-  "duration": "10–20분",
-  "status": "in_progress",
+  "duration": "25–45분",
+  "status": "ready_for_vercel",
   "assets": [
     "assets/night-islands.png",
     "assets/postal-airship.png",
-    "assets/postal-props.png"
+    "assets/postal-props.png",
+    "assets/rescue-atlas.png"
   ],
   "repository": "https://github.com/Fairyswim1/starlight-post",
   "repositoryStatus": "created",
   "playUrl": null,
   "siteId": "appgprj_6ae00f73101c8191a781b186fdadf188",
   "createdAt": "2026-10-27",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "deploymentTarget": "vercel"
 }
