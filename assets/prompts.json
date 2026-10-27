@@ -11,5 +11,16 @@
       "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG player sprite for a 2D fantasy coordinate navigation game, Starlight Post. A charming tiny teal and warm cream postal airship, round compact balloon with gold ribs and a little brass propeller, a wooden mail gondola carrying a sealed coral-red envelope, one glowing amber navigation lamp. Side three-quarter view facing right, all parts visible, centered with generous clear margins. Hand-painted gouache storybook game art, clean silhouette readable at 64 pixels, beautiful soft edge shading, restrained navy-teal-cream-coral palette. One airship only. No background, genuinely transparent alpha; no ground, no shadow plane, no text, no numbers, no grid, no checkerboard.",
       "transparent": true
     }
-  ]
+  ],
+  "upgrade": {
+    "tool": "built-in image_gen",
+    "createdAt": "2026-10-27T06:16:22.868Z",
+    "images": [
+      {
+        "file": "postal-props.png",
+        "prompt": "A wide horizontal game sprite atlas, exactly THREE equally sized square cells in one row on a transparent alpha background, no grid lines, no text. Each sprite small and perfectly centered in its cell, occupying at most 65 percent of cell width and height, LARGE CLEAR EMPTY GAPS between the objects. Left cell: a golden cream envelope with a tiny turquoise wax star seal and ribbon. Middle cell: a round fluffy plum-purple storm cloud with two gold lightning bolts, friendly fantasy weather obstacle. Right cell: a small teal-and-brass magical postal mailbox on a short pedestal, glowing mail slot and crescent moon roof. Cohesive hand-painted fantasy night sky game art, warm brass highlights and teal glow, strong silhouettes readable at 40 pixels. No scenery, no floor shadow, no letters, no stamps with text. All three complete objects fit entirely inside their own cells, nothing crosses cell boundaries. Truly transparent background.",
+        "transparent": true
+      }
+    ]
+  }
 }

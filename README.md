@@ -38,3 +38,9 @@ npm run build
 최단 거리, 잘못된 출발·되돌리기·힌트 없이 완주하면 별 3개입니다. 힌트를 2회 이상 쓰면 최대 별 1개입니다.
 
 각 게임은 독립 GitHub 저장소로 관리하고, 모음 사이트는 별도의 `math-game-arcade` 프로젝트로 관리합니다.
+
+## Vercel 배포와 에셋 개편
+
+이 저장소를 Vercel에서 Import합니다. Framework Other, Build npm run build, Output dist가 vercel.json에 설정되어 있습니다. build-info.json은 배포 커밋 확인용입니다. 기존 ChatGPT Sites 주소로 연결하지 않습니다.
+
+편지, 폭풍, 우편함은 내장 image_gen으로 만든 assets/postal-props.png를 사용합니다. SVG는 아틀라스의 영역과 정확한 좌표만 배치합니다. 프롬프트는 assets/prompts.json의 upgrade 항목에 있습니다.

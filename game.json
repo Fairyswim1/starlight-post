@@ -14,11 +14,14 @@
   "status": "in_progress",
   "assets": [
     "assets/night-islands.png",
-    "assets/postal-airship.png"
+    "assets/postal-airship.png",
+    "assets/postal-props.png"
   ],
   "repository": "https://github.com/Fairyswim1/starlight-post",
   "repositoryStatus": "created",
   "playUrl": null,
   "siteId": "appgprj_6ae00f73101c8191a781b186fdadf188",
-  "createdAt": "2026-10-27"
+  "createdAt": "2026-10-27",
+  "version": "1.1.0",
+  "deploymentTarget": "vercel"
 }
