@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "generatedAt": "2026-10-27",
+  "assets": [
+    {
+      "path": "assets/night-islands.png",
+      "prompt": "Use case: stylized-concept. Asset type: finished wide illustrated background for a Korean middle-school coordinate navigation puzzle game called Starlight Post. Create a beautiful atmospheric hand-painted 2D fantasy night sky, luminous teal-blue floating islands with tiny warm amber post-office buildings and mailboxes along the lower corners, suspended footbridges, distant glowing lanterns and stars, a large pale moon high at right. Deep midnight navy, dusky indigo, turquoise foliage and restrained golden light. Premium storybook game art, textured gouache, detailed charming architecture, no photorealism. Wide landscape 16:9. Composition: outer edges and lower corners carry the detailed islands; keep the entire central 65 percent quiet dark open sky with sparse small stars for a crisp coordinate grid and game objects to be drawn by code. No people, no text, no letters, no numbers, no grid, no UI, no logos, no watermarks. Opaque full-frame background."
+    },
+    {
+      "path": "assets/postal-airship.png",
+      "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG player sprite for a 2D fantasy coordinate navigation game, Starlight Post. A charming tiny teal and warm cream postal airship, round compact balloon with gold ribs and a little brass propeller, a wooden mail gondola carrying a sealed coral-red envelope, one glowing amber navigation lamp. Side three-quarter view facing right, all parts visible, centered with generous clear margins. Hand-painted gouache storybook game art, clean silhouette readable at 64 pixels, beautiful soft edge shading, restrained navy-teal-cream-coral palette. One airship only. No background, genuinely transparent alpha; no ground, no shadow plane, no text, no numbers, no grid, no checkerboard.",
+      "transparent": true
+    }
+  ]
+}

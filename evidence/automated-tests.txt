@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: axes are not quadrants; ordered pairs and signs are distinguished
+ok 1 - axes are not quadrants; ordered pairs and signs are distinguished
+  ---
+  duration_ms: 1.8794
+  ...
+# Subtest: routing has correct signs, length and endpoints for every pair in the grid
+ok 2 - routing has correct signs, length and endpoints for every pair in the grid
+  ---
+  duration_ms: 48.2684
+  ...
+# Subtest: all 12 stages have solvable non-overlapping geometry; solver solution actually wins
+ok 3 - all 12 stages have solvable non-overlapping geometry; solver solution actually wins
+  ---
+  duration_ms: 21.7368
+  ...
+# Subtest: storm collision is atomic; changing axis order avoids first storm
+ok 4 - storm collision is atomic; changing axis order avoids first storm
+  ---
+  duration_ms: 0.2445
+  ...
+# Subtest: fuel, invalid coordinates, repeated letters and goal conditions
+ok 5 - fuel, invalid coordinates, repeated letters and goal conditions
+  ---
+  duration_ms: 0.4208
+  ...
+# Subtest: unreachable board returns null and zero fuel can still finish exactly
+ok 6 - unreachable board returns null and zero fuel can still finish exactly
+  ---
+  duration_ms: 0.1811
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 183.4218

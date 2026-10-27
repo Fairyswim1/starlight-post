@@ -1,0 +1,24 @@
+{
+  "id": "starlight-post",
+  "title": "별빛 우편국",
+  "subtitle": "좌표로 잇는 밤하늘",
+  "grade": 1,
+  "unit": "4-1 순서쌍과 좌표",
+  "description": "좌표로 비행선을 조종해 편지를 수거하고, 폭풍을 피해 우편함까지 배달하세요.",
+  "tags": [
+    "좌표평면",
+    "항로 설계",
+    "12 스테이지"
+  ],
+  "duration": "10–20분",
+  "status": "in_progress",
+  "assets": [
+    "assets/night-islands.png",
+    "assets/postal-airship.png"
+  ],
+  "repository": "https://github.com/Fairyswim1/starlight-post",
+  "repositoryStatus": "created",
+  "playUrl": null,
+  "siteId": "appgprj_6ae00f73101c8191a781b186fdadf188",
+  "createdAt": "2026-10-27"
+}
