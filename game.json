@@ -23,6 +23,6 @@
   "playUrl": null,
   "siteId": "appgprj_6ae00f73101c8191a781b186fdadf188",
   "createdAt": "2026-10-27",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "deploymentTarget": "vercel"
 }

@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1c2d"><title>별빛 항로 · 폭풍 구조대</title><meta name="description" content="좌표, 구조 순서, 파고 그래프와 급유 경로를 함께 판단하는 12개 구조 임무."><link rel="stylesheet" href="style.css"></head>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1c2d"><title>별빛 항로 · 폭풍 구조대</title><meta name="description" content="좌표, 구조 순서, 파고 그래프와 급유 경로를 함께 판단하는 12개 구조 임무."><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="./theme/fonts.css"><link rel="stylesheet" href="typography.css"></head>
 <body>
-<header class="topbar"><a class="brand" href="./"><span class="brand-icon">✦</span> 수학 아틀리에 <span class="brand-divider">/</span> <span class="brand-current">STARLIGHT RESCUE</span></a><div class="top-actions"><button id="sound" class="ghost" aria-pressed="false">소리 꺼짐</button><button id="help" class="ghost">비행 안내</button></div></header>
+<header class="topbar"><a class="brand" href="./"><span class="brand-icon">✦</span> 수학 아틀리에 <span class="brand-divider">/</span> <span class="brand-current">별빛 구조대</span></a><div class="top-actions"><button id="sound" class="ghost" aria-pressed="false">소리 꺼짐</button><button id="help" class="ghost">비행 안내</button></div></header>
 <main>
-<section class="heading"><div><p class="eyebrow">COORDINATES × GRAPHS · RESCUE CAMPAIGN</p><h1>별빛 항로<span>폭풍 구조대</span></h1><p class="intro">한 자리의 좌석, 다가오는 폭풍. 오늘 밤의 구조 작전을 세워주세요.</p></div><div class="stamp"><span>중학교 1학년</span><strong>좌표와 그래프</strong><small>✦ <span id="total-stars">0</span> / 36 별빛 수집</small></div></section>
+<section class="heading"><div><p class="eyebrow">좌표와 그래프로 떠나는 구조 모험</p><h1>별빛 항로<span>폭풍 구조대</span></h1><p class="intro">한 자리의 좌석, 다가오는 폭풍. 오늘 밤의 구조 작전을 세워주세요.</p></div><div class="stamp"><span>중학교 1학년</span><strong>좌표와 그래프</strong><small>✦ <span id="total-stars">0</span> / 36 별빛 수집</small></div></section>
 <nav id="stages" class="stages" aria-label="구조 임무 선택"></nav>
 <div class="game-layout">
-<section class="board-panel" aria-label="좌표 비행 지도"><div class="board-header"><div><span id="chapter" class="eyebrow"></span><h2 id="level-title"></h2></div><span class="live-chip"><i></i> RESCUE OPERATIONS</span></div>
+<section class="board-panel" aria-label="좌표 비행 지도"><div class="board-header"><div><span id="chapter" class="eyebrow"></span><h2 id="level-title"></h2></div><span class="live-chip"><i></i> 구조 작전</span></div>
 <div class="board-wrap"><svg id="board" viewBox="0 0 600 600" role="img" aria-label="가로 x축, 세로 y축으로 이루어진 좌표평면"></svg><div class="compass">N <span>↑</span></div></div>
 <div class="map-legend"><span>구조자 → 같은 글자 대피소</span><span>청록: 관제</span><span>보라: 급유</span><span>구름: 영구 폭풍</span><span>한 칸 = 1턴·연료 1</span></div><section id="weather-panel" class="weather-panel" hidden><div class="card-label">폭풍 관측 · 도착 시각을 읽으세요</div><svg id="weather-graph" viewBox="0 0 410 145" role="img"></svg><p id="weather-copy"></p></section></section>
 <aside class="control-column">

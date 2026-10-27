@@ -8,3 +8,6 @@ console.log('Static game built in dist/');
 const {execFileSync}=await import('node:child_process');
 let commit=process.env.VERCEL_GIT_COMMIT_SHA||null; if(!commit)try{commit=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();}catch{}
 await (await import('node:fs/promises')).writeFile('dist/build-info.json',JSON.stringify({id:"starlight-post",commit}));
+
+await cp('theme','dist/theme',{recursive:true});
+await copyFile('typography.css','dist/typography.css');
