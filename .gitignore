@@ -4,3 +4,4 @@ dist/
 .openai/*.tar.gz
 
 .vercel/
+.openai/
