@@ -13,8 +13,8 @@ export function step(l,s,p){
   if(distance>1)return {ok:false,reason:'한 턴에 한 칸씩 이동해요.'};
   const tick=s.tick+1,at=q=>equal(p,q),where=`(${p.join(', ')})`;
   if(l.storms.some(at))return {ok:false,reason:`${where}은 영구 폭풍이에요. 경유지를 바꿔보세요.`};
-  if(l.gates.some(g=>at(g.at)&&!(s.keys&(1<<g.switch))))return {ok:false,reason:`${where}의 관문이 잠겼어요. 먼저 청록 관제 장치를 방문하세요.`};
-  if(l.pulses.some(at)&&waveAt(l,tick)>l.safeHeight)return {ok:false,reason:`${tick}턴의 파고는 ${waveAt(l,tick)}예요. ${where}은 파고 ${l.safeHeight} 이하일 때만 통과할 수 있어요. 대기하거나 우회하세요.`};
+  if(l.gates.some(g=>at(g.at)&&!(s.keys&(1<<g.switch))))return {ok:false,reason:`${where}의 관문이 잠겼어요. 먼저 청록 문 여는 장치를 방문하세요.`};
+  if(l.pulses.some(at)&&waveAt(l,tick)>l.safeHeight)return {ok:false,reason:`${tick}턴의 폭풍 세기는 ${waveAt(l,tick)}예요. ${where}은 폭풍 세기 ${l.safeHeight} 이하일 때만 통과할 수 있어요. 대기하거나 우회하세요.`};
   if(distance>s.fuel)return {ok:false,reason:'연료가 부족해요.'};
   const n={...s,position:[...p],fuel:s.fuel-distance,tick,distance:s.distance+distance};
   l.switches.forEach((q,i)=>{if(at(q))n.keys|=1<<i;});
@@ -24,7 +24,7 @@ export function step(l,s,p){
   if(n.cargo<0){const i=l.rescues.findIndex((r,i)=>!(n.delivered&(1<<i))&&at(r.pickup));if(i>=0){n.cargo=i;events.push(`${l.rescues[i].name} 탑승`);}}
   const late=l.rescues.find((r,i)=>r.deadline&&tick>=r.deadline&&!(n.delivered&(1<<i)));
   n.won=n.delivered===allRescued(l)&&at(l.goal)&&!late;
-  if(!n.won&&(late||tick>=l.limit||n.fuel===0)){n.lost=true;n.reason=late?`${late.name}의 구조 시한 ${late.deadline}턴을 넘겼어요.`:tick>=l.limit?'폭풍 전선이 도착했어요. 제한 턴 안에 기지로 돌아와야 해요.':'연료가 소진됐어요. 급유소를 포함한 경로를 다시 계획하세요.';}
+  if(!n.won&&(late||tick>=l.limit||n.fuel===0)){n.lost=true;n.reason=late?`${late.name}의 구조 시한 ${late.deadline}턴을 넘겼어요.`:tick>=l.limit?'폭풍 전선이 도착했어요. 제한 턴 안에 기지로 돌아와야 해요.':'연료가 소진됐어요. 연료 충전소를 포함한 경로를 다시 계획하세요.';}
   return {ok:true,state:n,events};
 }
 export function inspectMove(l,s,target,order='xy'){

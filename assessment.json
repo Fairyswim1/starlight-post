@@ -39,5 +39,15 @@
   ],
   "rule": "각 요소 2개 과제에서 도움 없이 첫 제출 성공. 설명은 별도 교사 검토. 공식 이수 판정이 아님.",
   "storage": "localStorage only; JSON export; anonymous learner sessions",
-  "limits": "정답 데이터는 클라이언트에 있는 형성평가 도구. 본인 인증·감독 시험·공식 성적 처리가 아님."
+  "limits": "정답 데이터는 클라이언트에 있는 형성평가 도구. 본인 인증·감독 시험·공식 성적 처리가 아님.",
+  "inGameObservation": {
+    "version": "2026.10.27.2",
+    "module": "observations.mjs",
+    "record": "starlight-observations-2026.10.27.2",
+    "skills": [
+      "9수02-05: 좌표 읽기",
+      "9수02-06: 그래프 값과 통과 여부 해석"
+    ],
+    "limits": "플레이 기록은 9수02-05 좌표 읽기와 9수02-06 해석의 부분 자료다. 좌표 표시·그래프 구성·편리함 설명은 별도 assessment에서 검토. 게임 승리·관찰 개수는 공식 이수 판정이 아님."
+  }
 }

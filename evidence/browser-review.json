@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-27T09:48:29.501Z",
-  "sourceHash": "7c9e38c95cbde4e088cf43b138d4470f5d181a5e89a146290cecfbd2a29dc2d5",
+  "checkedAt": "2026-10-27T10:25:21.281Z",
+  "sourceHash": "f3fe6c45a9dbdd606537e2bbc1cacd30a7d6de922ee7ddaf2c45489509666db1",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
@@ -10,9 +10,11 @@
     "evidence/assessment-mobile.png",
     "evidence/typography-assessment-mobile.png",
     "evidence/typography-desktop.png",
-    "evidence/typography-mobile.png"
+    "evidence/typography-mobile.png",
+    "evidence/reading-desktop.png",
+    "evidence/reading-mobile.png"
   ],
-  "scope": "Assessment revision. Previously verified gameplay engines unchanged; game entry links checked. Synthetic learner records only.",
+  "scope": "In-game map reading and graph interpretation revision. Standalone assessment code unchanged; prior detailed assessment checks retained with original date. Fresh in-game checks listed below.",
   "assessment": {
     "codes": [
       "9수02-05",
@@ -64,12 +66,42 @@
       "Math signs, coordinates and graph labels remain readable",
       "No console errors"
     ],
-    "actions": "Selected mission 1, entered (2,1), moved to rescue; graph assessment submitted successfully",
+    "actions": "Rechecked revision desktop and mobile at 390px; existing self-hosted typography unchanged",
     "screenshots": [
       "evidence/typography-assessment-mobile.png",
       "evidence/typography-desktop.png",
       "evidence/typography-mobile.png"
-    ]
+    ],
+    "checkedAt": "2026-10-27T10:25:21.328Z"
   },
-  "priorSourceHash": "a89156fbc7d08642d9bad3dc78e9c8d1a47474707ffc983c2db3885dc35489e0"
+  "priorSourceHash": "a89156fbc7d08642d9bad3dc78e9c8d1a47474707ffc983c2db3885dc35489e0",
+  "priorReview": {
+    "checkedAt": "2026-10-27T09:48:29.501Z",
+    "sourceHash": "7c9e38c95cbde4e088cf43b138d4470f5d181a5e89a146290cecfbd2a29dc2d5"
+  },
+  "revision": {
+    "status": "passed",
+    "viewportDesktop": [
+      1280,
+      713
+    ],
+    "viewportMobile": [
+      390,
+      844
+    ],
+    "consoleErrors": 0,
+    "checks": [
+      "No numeric destination coordinates in mission list, marker titles or default map description",
+      "No answer path or future event preview before submission",
+      "Mission 1 swapped coordinates rejected; corrected retry excluded; shelter first success counted; mission won",
+      "Mission 7 current-time graph answer rejected; correct dangerous-arrival interpretation recorded but flight blocked",
+      "Two waits change arrival to safe time; read new graph value then cross, deliver and win",
+      "Mission 8 asks both crossing times, including second crossing before allowing flight",
+      "Text-map assistance excludes later coordinate answer from independent successes",
+      "Reload preserves attempts and independent counts; report JSON parsed from UI",
+      "Report contains first response, retry, correct dangerous prediction, timestamps, codes and help events",
+      "New learner warning/cancel preserves records",
+      "390px graph and judgment inputs visible together; no overflow"
+    ]
+  }
 }
