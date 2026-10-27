@@ -1,0 +1,5 @@
+
+> starlight-post@2.1.0 build
+> node build.mjs
+
+Static game built in dist/

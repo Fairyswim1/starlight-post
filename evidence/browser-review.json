@@ -1,53 +1,44 @@
 {
+  "schema": 1,
   "status": "passed",
-  "reviewedAt": "2026-10-27T07:11:05.624Z",
-  "sourceHash": "f14d8c70bd19e7ff2cf314a79fd12fac02f93d270d0c92931e79ef0ef8d3e559",
-  "browser": "Codex in-app Chromium via cua_repl",
-  "checks": [
-    {
-      "name": "first mission",
-      "result": "6 turns, A picked up and delivered, 3 stars"
-    },
-    {
-      "name": "urgent rescue failure and recovery",
-      "result": "mission4 B-first fails A deadline at7; undo restores5 turns and prior state"
-    },
-    {
-      "name": "weather forecast and waiting",
-      "result": "mission7 direct route blocked at arrival2 with height2; two waits allow crossing at4; win at8 turns"
-    },
-    {
-      "name": "final combined mission",
-      "result": "mission12: 3 rescues, gate activated, weather waits, two fuel stations; win at38 turns, fuel6, 3 stars"
-    },
-    {
-      "name": "390px touch-width gameplay",
-      "result": "mission10 refuel path wins at16 turns, fuel1, 3 stars"
-    },
-    {
-      "name": "saved progress",
-      "result": "reload retained 11 total stars and last mission12; old v1 records isolated"
-    },
-    {
-      "name": "render and generated atlas",
-      "result": "corrected aspect-ratio letterbox bleed and outer SVG styles; final screenshot visually reviewed"
-    },
-    {
-      "name": "responsive layout",
-      "result": "390px document clientWidth390 and scrollWidth390; mission navigation scrolls within its container; desktop1280px inspected"
-    },
-    {
-      "name": "console",
-      "result": "no error or warning entries"
-    }
-  ],
+  "checkedAt": "2026-10-27T09:21:13.181Z",
+  "sourceHash": "a89156fbc7d08642d9bad3dc78e9c8d1a47474707ffc983c2db3885dc35489e0",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
-    "evidence/rescue-finale-win.png"
+    "evidence/rescue-finale-win.png",
+    "evidence/assessment-mobile.png"
   ],
-  "limitations": [
-    "No student playtest; difficulty evidence is rules/solver/counterexample validation",
-    "Mobile screenshot height expanded for inspection; gameplay was tested at390x844"
-  ]
+  "scope": "Assessment revision. Previously verified gameplay engines unchanged; game entry links checked. Synthetic learner records only.",
+  "assessment": {
+    "codes": [
+      "9수02-05",
+      "9수02-06"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": true,
+    "mobile": true,
+    "width": 390,
+    "teacherReview": "Shared module: moon-clockwork explanation and review saved, reloaded and checked",
+    "exportEvidence": "All four final export previews parsed from live DOM: correct game, criteria, attempt history and downloadable Blob. Earlier moon JSON downloaded and independently parsed.",
+    "consoleErrors": 0
+  },
+  "checks": [
+    "False factorization with correct final number rejected",
+    "Hint and retry successes excluded from independent evidence",
+    "Coordinate order and plotting; reading and constructing graphs",
+    "Forest separates integer/rational and real extension",
+    "Prime factorization meaning, construction and exponents",
+    "Reload persistence and teacher review",
+    "Mobile 390px without horizontal overflow",
+    "Per-game JSON export preview and download link"
+  ],
+  "priorGameplayReview": {
+    "checkedAt": "2026-10-27T09:20:32.475Z",
+    "sourceHash": "a89156fbc7d08642d9bad3dc78e9c8d1a47474707ffc983c2db3885dc35489e0"
+  }
 }
