@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-29T05:59:27.767Z",
-  "sourceHash": "9ca9970a7c251c678dbf267c6c1dc68e60eecd3334a8cf3021e2df5f35f173ad",
+  "checkedAt": "2026-10-29T06:42:48.504Z",
+  "sourceHash": "87a4171a1dda43b383973a2b1b9ad228df689da07a0516f2fa951a3b802920b7",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
@@ -13,7 +13,8 @@
     "evidence/typography-mobile.png",
     "evidence/reading-desktop.png",
     "evidence/reading-mobile.png",
-    "evidence/home-mobile.png"
+    "evidence/home-mobile.png",
+    "evidence/starlight-post-sound-mobile.png"
   ],
   "scope": "In-game map reading and graph interpretation revision. Standalone assessment code unchanged; prior detailed assessment checks retained with original date. Fresh in-game checks listed below.",
   "assessment": {
@@ -106,8 +107,8 @@
     ]
   },
   "previousReview": {
-    "sourceHash": "f3fe6c45a9dbdd606537e2bbc1cacd30a7d6de922ee7ddaf2c45489509666db1",
-    "checkedAt": "2026-10-27T10:25:21.281Z"
+    "sourceHash": "9ca9970a7c251c678dbf267c6c1dc68e60eecd3334a8cf3021e2df5f35f173ad",
+    "checkedAt": "2026-10-29T05:59:27.767Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:27.767Z",
@@ -118,5 +119,26 @@
     "mobileLinkWithinViewport": true,
     "screenshot": "evidence/home-mobile.png",
     "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
+    "previousSourceHash": "9ca9970a7c251c678dbf267c6c1dc68e60eecd3334a8cf3021e2df5f35f173ad"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "First mission two coordinate submissions and three-star win",
+      "Early route choice and free waypoint hidden",
+      "Judgment record available in details"
+    ]
   }
 }

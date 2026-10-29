@@ -1,6 +1,6 @@
 import {mkdir,copyFile,cp} from 'node:fs/promises';
 await mkdir('dist',{recursive:true});
-for(const f of ['index.html','style.css','app.mjs','engine.mjs','levels.mjs','observations.mjs'])await copyFile(f,`dist/${f}`);
+for(const f of ['sound.mjs','sound.css','index.html','style.css','app.mjs','engine.mjs','levels.mjs','observations.mjs'])await copyFile(f,`dist/${f}`);
 await cp('assets','dist/assets',{recursive:true});
 await cp('assessment','dist/assessment',{recursive:true});
 console.log('Static game built in dist/');

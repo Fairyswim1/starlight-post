@@ -2,134 +2,159 @@ TAP version 13
 # Subtest: every advertised skill has three varied tasks per form; source pages are present
 ok 1 - every advertised skill has three varied tasks per form; source pages are present
   ---
-  duration_ms: 4.5336
+  duration_ms: 4.1523
   ...
 # Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
 ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
   ---
-  duration_ms: 1.1994
+  duration_ms: 0.7725
   ...
 # Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
 ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
   ---
-  duration_ms: 0.7643
+  duration_ms: 0.6571
   ...
 # Subtest: incorrect, assisted, and retry successes cannot produce independent credit
 ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
   ---
-  duration_ms: 4.1009
+  duration_ms: 2.4669
   ...
 # Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
 ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
   ---
-  duration_ms: 0.3995
+  duration_ms: 0.2343
   ...
 # Subtest: independent evidence does not automatically grade explanations or formal completion
 ok 6 - independent evidence does not automatically grade explanations or formal completion
   ---
-  duration_ms: 0.9657
+  duration_ms: 0.7202
   ...
 # Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
 ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
   ---
-  duration_ms: 0.4582
+  duration_ms: 0.4404
   ...
 # Subtest: comparison keys agree with independent arithmetic, including negative square roots
 ok 8 - comparison keys agree with independent arithmetic, including negative square roots
   ---
-  duration_ms: 0.4312
+  duration_ms: 0.4055
   ...
 # Subtest: ordered pairs, signs, axes and all four quadrants
 ok 9 - ordered pairs, signs, axes and all four quadrants
   ---
-  duration_ms: 2.7752
+  duration_ms: 2.0608
   ...
 # Subtest: every coordinate pair has a unit-step Manhattan route in both orders
 ok 10 - every coordinate pair has a unit-step Manhattan route in both orders
   ---
-  duration_ms: 49.0278
+  duration_ms: 57.5682
   ...
 # Subtest: all 12 missions solved; replay checks independent fuel, time, capacity and deadline invariants
 ok 11 - all 12 missions solved; replay checks independent fuel, time, capacity and deadline invariants
   ---
-  duration_ms: 104.669
+  duration_ms: 103.8503
   ...
 # Subtest: one seat: passing a second rescue while occupied does not collect them; wrong shelter does not deliver
 ok 12 - one seat: passing a second rescue while occupied does not collect them; wrong shelter does not deliver
   ---
-  duration_ms: 0.2564
+  duration_ms: 0.2435
   ...
 # Subtest: nearby-first strategy fails urgent mission; pickup alone never satisfies a deadline
 ok 13 - nearby-first strategy fails urgent mission; pickup alone never satisfies a deadline
   ---
-  duration_ms: 0.32
+  duration_ms: 0.3544
   ...
 # Subtest: deadline and fuel boundaries allow success exactly on the final turn and final fuel unit
 ok 14 - deadline and fuel boundaries allow success exactly on the final turn and final fuel unit
   ---
-  duration_ms: 0.1695
+  duration_ms: 0.1733
   ...
 # Subtest: gates are a real prerequisite; changing axis order cannot bypass full-height barrier
 ok 15 - gates are a real prerequisite; changing axis order cannot bypass full-height barrier
   ---
-  duration_ms: 1.1241
+  duration_ms: 1.1408
   ...
 # Subtest: weather uses ARRIVAL time; waiting changes safe entry and costs no fuel
 ok 16 - weather uses ARRIVAL time; waiting changes safe entry and costs no fuel
   ---
-  duration_ms: 0.6746
+  duration_ms: 0.692
   ...
 # Subtest: refuel is single-use and essential; rescue-first route runs out
 ok 17 - refuel is single-use and essential; rescue-first route runs out
   ---
-  duration_ms: 0.9512
+  duration_ms: 0.8757
   ...
 # Subtest: previews do not mutate state; invalid route is atomic; terminal state blocks actions
 ok 18 - previews do not mutate state; invalid route is atomic; terminal state blocks actions
   ---
-  duration_ms: 0.6858
+  duration_ms: 0.7722
   ...
 # Subtest: finale needs the switch, weather timing and refueling; help affects rewards
 ok 19 - finale needs the switch, weather timing and refueling; help affects rewards
   ---
-  duration_ms: 57.9318
+  duration_ms: 57.3957
   ...
 # Subtest: mission 9 offers a genuine time-versus-fuel tradeoff: both routes win
 ok 20 - mission 9 offers a genuine time-versus-fuel tradeoff: both routes win
   ---
-  duration_ms: 0.3192
+  duration_ms: 0.2992
   ...
 # Subtest: map answers require signed x,y in order; blank is not zero
 ok 21 - map answers require signed x,y in order; blank is not zero
   ---
-  duration_ms: 2.0554
+  duration_ms: 1.3701
   ...
 # Subtest: retry, refresh and repeated destination labels cannot mint first-success evidence
 ok 22 - retry, refresh and repeated destination labels cannot mint first-success evidence
   ---
-  duration_ms: 14.5691
+  duration_ms: 6.4921
   ...
 # Subtest: help before response persists; later help does not erase earlier independent work
 ok 23 - help before response persists; later help does not erase earlier independent work
   ---
-  duration_ms: 0.4012
+  duration_ms: 0.7351
   ...
 # Subtest: weather is judged at crossing time, not current time or final arrival
 ok 24 - weather is judged at crossing time, not current time or final arrival
   ---
-  duration_ms: 1.1737
+  duration_ms: 1.991
   ...
 # Subtest: each storm crossing is considered; taking a detour supplies no graph evidence
 ok 25 - each storm crossing is considered; taking a detour supplies no graph evidence
   ---
-  duration_ms: 0.304
+  duration_ms: 0.4824
   ...
-1..25
-# tests 25
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 26 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 2.9133
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 27 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 85.4478
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 28 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.529
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 29 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.2819
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 30 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.3124
+  ...
+1..30
+# tests 30
 # suites 0
-# pass 25
+# pass 30
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 337.4957
+# duration_ms 344.4224
