@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-27T10:25:21.281Z",
-  "sourceHash": "f3fe6c45a9dbdd606537e2bbc1cacd30a7d6de922ee7ddaf2c45489509666db1",
+  "checkedAt": "2026-10-29T05:59:27.767Z",
+  "sourceHash": "9ca9970a7c251c678dbf267c6c1dc68e60eecd3334a8cf3021e2df5f35f173ad",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
@@ -12,7 +12,8 @@
     "evidence/typography-desktop.png",
     "evidence/typography-mobile.png",
     "evidence/reading-desktop.png",
-    "evidence/reading-mobile.png"
+    "evidence/reading-mobile.png",
+    "evidence/home-mobile.png"
   ],
   "scope": "In-game map reading and graph interpretation revision. Standalone assessment code unchanged; prior detailed assessment checks retained with original date. Fresh in-game checks listed below.",
   "assessment": {
@@ -103,5 +104,19 @@
       "New learner warning/cancel preserves records",
       "390px graph and judgment inputs visible together; no overflow"
     ]
+  },
+  "previousReview": {
+    "sourceHash": "f3fe6c45a9dbdd606537e2bbc1cacd30a7d6de922ee7ddaf2c45489509666db1",
+    "checkedAt": "2026-10-27T10:25:21.281Z"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:27.767Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
   }
 }
