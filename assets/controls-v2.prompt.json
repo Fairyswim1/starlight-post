@@ -1,0 +1,6 @@
+{
+  "file": "assets/control-frame-v2.png",
+  "tool": "image_gen",
+  "prompt": "Use case: stylized-concept. A single production-ready premium hand-painted fantasy game BUTTON FRAME. Long horizontal 4:1 shape, exactly one blank button, front view orthographic. Material: naval brass and midnight blue airship trim, tiny compass wing end caps, pale ivory navigation plate. Broad perfectly blank light center covers 75% of width for dark text rendered by game code. Subtle beveled depth, crisp edges, refined painterly textures, decorative end caps only, no distracting detail beneath text. Fill canvas nearly edge to edge with just 3% transparent margin. Genuine transparent alpha around the shaped silhouette. No letters, words, numbers, symbols in the center, no logo, no scene, no extra buttons, no shadow outside the object. Match elegant storybook woodland educational games, not a flat web pill. Usable at 200x56 pixels.",
+  "roundMarker": "Reused generated round-lantern-v1 from zero-forest; original prompt recorded there."
+}

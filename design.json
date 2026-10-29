@@ -171,5 +171,16 @@
     "accessibility": "현재 대상과 안내 버튼으로 키보드 이동, Escape로 나가기, 390px에서 대상과 설명 카드 분리",
     "replay": "상단 처음 안내 버튼",
     "failureRecovery": "오답 시 다음 비활성, 연습 다시/건너뛰기 제공"
+  },
+  "qualityRefresh": {
+    "date": "2026-10-29",
+    "stageCount": 12,
+    "preserveRules": true,
+    "preserveSavedProgress": true,
+    "newDecisions": [
+      "기존 12개 구조 임무 유지, 좌표 입력·구조·관제 조작 시각 개선"
+    ],
+    "visuals": "내장 이미지 생성으로 게임별 재질 버튼 새 제작, 생성 라운드 메달 재사용. 수식·정확한 도형은 코드로 유지.",
+    "assessment": "기존 성취기준 및 독립 확인 과제 유지. 추가 라운드의 승리/별은 이수 판정이 아님."
   }
 }

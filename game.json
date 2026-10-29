@@ -16,14 +16,16 @@
     "assets/night-islands.png",
     "assets/postal-airship.png",
     "assets/postal-props.png",
-    "assets/rescue-atlas.png"
+    "assets/rescue-atlas.png",
+    "assets/control-frame-v2.png",
+    "assets/round-marker-v2.png"
   ],
   "repository": "https://github.com/Fairyswim1/starlight-post",
   "repositoryStatus": "created",
   "playUrl": null,
   "siteId": "appgprj_6ae00f73101c8191a781b186fdadf188",
   "createdAt": "2026-10-27",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "deploymentTarget": "vercel",
   "tutorial": {
     "version": 1,
@@ -33,5 +35,6 @@
     "steps": 8,
     "practiceProgress": "isolated-memory",
     "style": "spotlight"
-  }
+  },
+  "stageCount": 12
 }

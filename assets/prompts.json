@@ -10,6 +10,16 @@
       "path": "assets/postal-airship.png",
       "prompt": "Use case: stylized-concept. Asset type: a single transparent PNG player sprite for a 2D fantasy coordinate navigation game, Starlight Post. A charming tiny teal and warm cream postal airship, round compact balloon with gold ribs and a little brass propeller, a wooden mail gondola carrying a sealed coral-red envelope, one glowing amber navigation lamp. Side three-quarter view facing right, all parts visible, centered with generous clear margins. Hand-painted gouache storybook game art, clean silhouette readable at 64 pixels, beautiful soft edge shading, restrained navy-teal-cream-coral palette. One airship only. No background, genuinely transparent alpha; no ground, no shadow plane, no text, no numbers, no grid, no checkerboard.",
       "transparent": true
+    },
+    {
+      "file": "control-frame-v2.png",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. A single production-ready premium hand-painted fantasy game BUTTON FRAME. Long horizontal 4:1 shape, exactly one blank button, front view orthographic. Material: naval brass and midnight blue airship trim, tiny compass wing end caps, pale ivory navigation plate. Broad perfectly blank light center covers 75% of width for dark text rendered by game code. Subtle beveled depth, crisp edges, refined painterly textures, decorative end caps only, no distracting detail beneath text. Fill canvas nearly edge to edge with just 3% transparent margin. Genuine transparent alpha around the shaped silhouette. No letters, words, numbers, symbols in the center, no logo, no scene, no extra buttons, no shadow outside the object. Match elegant storybook woodland educational games, not a flat web pill. Usable at 200x56 pixels.",
+      "transparent": true,
+      "roles": [
+        "interactive-prop",
+        "button-frame"
+      ]
     }
   ],
   "upgrade": {
@@ -62,5 +72,6 @@
     ],
     "prompt": "Create ONE production game sprite atlas for a hand-painted cozy fantasy night-sky rescue strategy game, transparent background. Wide 4:1 horizontal canvas, four equal square cells in ONE ROW, generous empty transparent margins per cell, no borders, no text, no shadows crossing cells. Exactly four isolated game sprites centered at 12.5%,37.5%,62.5%,87.5% canvas width. Left to right: 1) adorable stranded aviator with bronze goggles and orange scarf standing on a tiny floating broken wooden platform, waving a glowing amber lantern, 2) safe rescue dock, small floating rocky island with teal canopy shelter and glowing landing pad, 3) magical fuel canister station with violet luminous crystal in a copper pump and hose on tiny base, 4) blue crystal beacon lever on bronze stone pedestal with cyan rings, a switch that unlocks a storm barrier. Consistent isometric three-quarter viewpoint, richly painted detailed game assets, strong silhouettes readable at 46 pixels, warm gold and teal lighting against genuine transparent alpha, gentle storybook adventure, nonviolent. Keep all four entirely inside their own square cell with at least 12 percent transparent inset. No background scene. No letters, numbers, watermarks or UI.",
     "review": "Generated size 2172×724 instead of requested4:1. Used measured transparent gaps for per-frame SVG crops; restricted outer SVG CSS to avoid atlas bleed. No image regeneration or synthetic sprite replacement."
-  }
+  },
+  "qualityRefreshCalls": 1
 }

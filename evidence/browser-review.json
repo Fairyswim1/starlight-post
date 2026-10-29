@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-29T07:09:38.701Z",
-  "sourceHash": "e87c68d3b0b4c53fa113c5a7ded9d460a06b1bfce6a4ebe115e1e37076ef6e38",
+  "checkedAt": "2026-10-29T08:36:53.340Z",
+  "sourceHash": "1e2346d0d4cd4faa6cd05514e3ddf9e52319fbea55520be637dd7d29d89fafdf",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
@@ -16,7 +16,10 @@
     "evidence/home-mobile.png",
     "evidence/starlight-post-sound-mobile.png",
     "evidence/tutorial-desktop.png",
-    "evidence/tutorial-mobile.png"
+    "evidence/tutorial-mobile.png",
+    "evidence/star-refresh-desktop.png",
+    "evidence/star-refresh-mobile.png",
+    "evidence/star-refresh-tutorial.png"
   ],
   "scope": "In-game map reading and graph interpretation revision. Standalone assessment code unchanged; prior detailed assessment checks retained with original date. Fresh in-game checks listed below.",
   "assessment": {
@@ -44,7 +47,8 @@
     "Prime factorization meaning, construction and exponents",
     "Reload persistence and teacher review",
     "Mobile 390px without horizontal overflow",
-    "Per-game JSON export preview and download link"
+    "Per-game JSON export preview and download link",
+    "New generated controls and mobile layout verified; game states and tutorial replay checked."
   ],
   "priorGameplayReview": {
     "checkedAt": "2026-10-27T09:20:32.475Z",
@@ -109,8 +113,8 @@
     ]
   },
   "previousReview": {
-    "sourceHash": "87a4171a1dda43b383973a2b1b9ad228df689da07a0516f2fa951a3b802920b7",
-    "checkedAt": "2026-10-29T06:42:48.504Z"
+    "checkedAt": "2026-10-29T07:09:38.701Z",
+    "sourceHash": "e87c68d3b0b4c53fa113c5a7ded9d460a06b1bfce6a4ebe115e1e37076ef6e38"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:27.767Z",
@@ -162,5 +166,20 @@
       "Frost repeated click cannot skip temperature lesson"
     ],
     "browserConsoleErrors": 0
+  },
+  "qualityRefresh": {
+    "status": "passed",
+    "stages": 12,
+    "newStageUI": {
+      "firstMission": "won, 3 stars, 6 turns",
+      "lastMission": "layout and coordinate controls checked"
+    },
+    "desktop": 1280,
+    "mobile": 390,
+    "mobileScrollWidth": 376,
+    "generatedButtons": "control-frame-v2.png",
+    "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
+    "assessmentReuse": "Assessment files unchanged, previous browser checks retained; all automated tests rerun",
+    "consoleErrors": 0
   }
 }

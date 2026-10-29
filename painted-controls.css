@@ -1,0 +1,44 @@
+
+/* Painted controls generated for this game's material palette. */
+body button:where(:not([id^="tour-"]):not(.close):not(#close-dialog)){
+ background:transparent url('assets/control-frame-v2.png') center/100% 185% no-repeat!important;
+ color:#243d37!important;border:0!important;border-radius:0;box-shadow:none!important;
+ font-family:var(--font-game-display,'Do Hyeon',sans-serif)!important;font-weight:400!important;
+ min-height:54px;line-height:1.35;padding:12px 24px;text-shadow:0 1px #fff4d580;
+ filter:drop-shadow(0 3px 2px #082a3438);transition:filter .15s,transform .15s;
+}
+body button:where(:not([id^="tour-"]):not(.close):not(#close-dialog)):hover:not(:disabled){filter:brightness(1.08) drop-shadow(0 3px 3px #082a3444)}
+body button:where(:not([id^="tour-"])):disabled{filter:grayscale(.7) brightness(.85);opacity:.55}
+body button.primary{font-size:20px!important;min-height:60px}
+body button[aria-pressed=true],body button[aria-current=step],body button.active{outline:3px solid #c3913d;outline-offset:1px}
+body button small{color:#385549!important;font-weight:400}
+body #chapters button,body #stages button,body .stage-button{
+ background:transparent url('assets/round-marker-v2.png') center/contain no-repeat!important;
+ color:#ffedb7!important;min-height:66px;height:66px;padding:22px 0 0;min-width:48px;font-size:20px!important;text-align:center;flex:1;
+}
+body #chapters button small,body #stages button small,body .stage-button small{color:#ffe7a4!important;font-size:9px!important;line-height:1;margin:0}
+body #chapters button.active,body #stages button[aria-current=step],body .stage-button.active{outline:0;filter:drop-shadow(0 0 7px #e5c77c)}
+body .lane-controls button{font-size:16px!important;min-height:52px}
+body .input-row button{font-size:17px!important;min-height:52px}
+body .arena-actions button{font-size:18px!important}
+body #cards button{min-height:80px}
+body #cards button small{font-size:13px}
+body #orders button{min-height:74px;font-size:16px!important}
+body #stages button[data-level]{background:transparent url('assets/control-frame-v2.png') center/100% 185% no-repeat!important;color:#243d37!important;min-height:92px;height:auto;padding:18px 24px;font-size:18px!important}
+body #stages button[data-level] small{color:#426154!important;font-size:13px!important}
+body .sound-controls button,body #tutorial-replay{min-height:44px;font-size:15px!important;padding:9px 19px}
+@media(max-width:600px){
+ body button:where(:not([id^="tour-"]):not(.close):not(#close-dialog)){padding-left:20px;padding-right:20px;min-height:50px;font-size:16px}
+ body #chapters,body #stages:not(:has([data-level])){display:grid;grid-template-columns:repeat(6,minmax(0,1fr));overflow:visible;gap:3px}
+ body #chapters button,body #stages button:not([data-level]),body .stage-button{min-width:0;padding:20px 0 0;min-height:60px;height:60px;font-size:20px!important;margin:0}
+ body .lane-controls{gap:4px}body .lane-controls button{font-size:14px!important;padding:12px 20px}
+ body #cards button{min-height:80px}body #cards strong{font-size:22px}
+ body #orders button{min-height:80px;font-size:15px!important}
+ body .sound-controls button,body #tutorial-replay{font-size:14px!important;padding:8px 16px;min-height:42px}
+}
+
+body .stepper button{padding:0;min-height:42px;width:40px;font-size:23px!important;background-size:100% 150%!important}body .segmented button{padding:13px 23px;white-space:normal}body .topbar{height:auto;min-height:76px;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}body .launch{padding:14px 34px}
+
+body .stepper{grid-template-columns:40px minmax(0,1fr) 40px;height:46px}body .secondary-actions button{padding:12px 23px;font-size:15px!important;flex:1;min-width:0}body .tip-card button{padding:12px 28px;font-size:15px!important;text-align:center}body .launch{justify-content:center;gap:8px}
+
+@media(max-width:600px){body #learning-entry{position:static!important;display:block;margin:16px;text-align:center;font-family:var(--font-game-display)!important;font-size:16px!important}}
