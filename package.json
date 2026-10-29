@@ -1,6 +1,6 @@
 {
   "name": "starlight-post",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "private": true,
   "type": "module",
   "scripts": {

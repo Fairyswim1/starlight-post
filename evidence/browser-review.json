@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-29T06:42:48.504Z",
-  "sourceHash": "87a4171a1dda43b383973a2b1b9ad228df689da07a0516f2fa951a3b802920b7",
+  "checkedAt": "2026-10-29T07:09:38.701Z",
+  "sourceHash": "e87c68d3b0b4c53fa113c5a7ded9d460a06b1bfce6a4ebe115e1e37076ef6e38",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
@@ -14,7 +14,9 @@
     "evidence/reading-desktop.png",
     "evidence/reading-mobile.png",
     "evidence/home-mobile.png",
-    "evidence/starlight-post-sound-mobile.png"
+    "evidence/starlight-post-sound-mobile.png",
+    "evidence/tutorial-desktop.png",
+    "evidence/tutorial-mobile.png"
   ],
   "scope": "In-game map reading and graph interpretation revision. Standalone assessment code unchanged; prior detailed assessment checks retained with original date. Fresh in-game checks listed below.",
   "assessment": {
@@ -107,8 +109,8 @@
     ]
   },
   "previousReview": {
-    "sourceHash": "9ca9970a7c251c678dbf267c6c1dc68e60eecd3334a8cf3021e2df5f35f173ad",
-    "checkedAt": "2026-10-29T05:59:27.767Z"
+    "sourceHash": "87a4171a1dda43b383973a2b1b9ad228df689da07a0516f2fa951a3b802920b7",
+    "checkedAt": "2026-10-29T06:42:48.504Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:27.767Z",
@@ -130,8 +132,8 @@
     "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
   },
   "assessmentReuse": {
-    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
-    "previousSourceHash": "9ca9970a7c251c678dbf267c6c1dc68e60eecd3334a8cf3021e2df5f35f173ad"
+    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
+    "previousSourceHash": "87a4171a1dda43b383973a2b1b9ad228df689da07a0516f2fa951a3b802920b7"
   },
   "usabilityRevision": {
     "status": "passed",
@@ -140,5 +142,25 @@
       "Early route choice and free waypoint hidden",
       "Judgment record available in details"
     ]
+  },
+  "tutorialRevision": {
+    "status": "passed",
+    "firstVisit": true,
+    "actualActionsToFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "noAutomaticReplayAfterSeen": true,
+    "desktopTargetUncovered": true,
+    "mobileWidth": 390,
+    "mobileTargetUncovered": true,
+    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
+    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
+    "negativeChecks": [
+      "Moon wrong part length does not advance",
+      "Cloud wrong representative value does not advance",
+      "Cloud Enter on quantity cannot craft before craft step",
+      "Frost repeated click cannot skip temperature lesson"
+    ],
+    "browserConsoleErrors": 0
   }
 }
