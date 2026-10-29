@@ -2,7 +2,7 @@
   "schema": 1,
   "status": "passed",
   "checkedAt": "2026-10-29T08:36:53.340Z",
-  "sourceHash": "1e2346d0d4cd4faa6cd05514e3ddf9e52319fbea55520be637dd7d29d89fafdf",
+  "sourceHash": "e61e12fe22547314694c097fef31215d7ea77f4c643e6191ffa124c07efca290",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
@@ -181,5 +181,11 @@
     "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
     "assessmentReuse": "Assessment files unchanged, previous browser checks retained; all automated tests rerun",
     "consoleErrors": 0
+  },
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:34.909Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
   }
 }
