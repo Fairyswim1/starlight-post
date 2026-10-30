@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-30T01:16:50.023Z",
-  "sourceHash": "be99aaf06686ebb945f006fbcb866936060b7f2e0226c1a618669c68b4fb0d9f",
+  "checkedAt": "2026-10-30T06:17:09.650Z",
+  "sourceHash": "0d8e18abc16c627d9eef104941dceb0bd468444abdba468c4fc743fe723e0316",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
@@ -33,12 +33,13 @@
     "retry": true,
     "persistence": true,
     "report": true,
-    "export": true,
+    "export": false,
     "mobile": true,
     "width": 390,
     "teacherReview": "Shared module: moon-clockwork explanation and review saved, reloaded and checked",
     "exportEvidence": "All four final export previews parsed from live DOM: correct game, criteria, attempt history and downloadable Blob. Earlier moon JSON downloaded and independently parsed.",
-    "consoleErrors": 0
+    "consoleErrors": 0,
+    "jsonUiRemoved": true
   },
   "checks": [
     "False factorization with correct final number rejected",
@@ -197,5 +198,27 @@
     "reportOpened": true,
     "proceduralExplanationRemoved": true,
     "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T01:16:50.023Z",
+    "sourceHash": "be99aaf06686ebb945f006fbcb866936060b7f2e0226c1a618669c68b4fb0d9f",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "starlight-post",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
   }
 }
