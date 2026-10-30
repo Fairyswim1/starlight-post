@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "status": "passed",
-  "checkedAt": "2026-10-29T08:36:53.340Z",
-  "sourceHash": "e61e12fe22547314694c097fef31215d7ea77f4c643e6191ffa124c07efca290",
+  "checkedAt": "2026-10-30T01:16:50.023Z",
+  "sourceHash": "be99aaf06686ebb945f006fbcb866936060b7f2e0226c1a618669c68b4fb0d9f",
   "screenshots": [
     "evidence/rescue-desktop.png",
     "evidence/rescue-mobile.png",
@@ -19,7 +19,8 @@
     "evidence/tutorial-mobile.png",
     "evidence/star-refresh-desktop.png",
     "evidence/star-refresh-mobile.png",
-    "evidence/star-refresh-tutorial.png"
+    "evidence/star-refresh-tutorial.png",
+    "evidence/student-copy.png"
   ],
   "scope": "In-game map reading and graph interpretation revision. Standalone assessment code unchanged; prior detailed assessment checks retained with original date. Fresh in-game checks listed below.",
   "assessment": {
@@ -187,5 +188,14 @@
     "status": "passed",
     "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
     "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-29T08:36:53.340Z",
+    "sourceHash": "e61e12fe22547314694c097fef31215d7ea77f4c643e6191ffa124c07efca290"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
   }
 }
