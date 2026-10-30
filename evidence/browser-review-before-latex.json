@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "checkedAt": "2026-10-30T06:17:09.650Z",
+  "sourceHash": "0d8e18abc16c627d9eef104941dceb0bd468444abdba468c4fc743fe723e0316",
+  "screenshots": [
+    "evidence/rescue-desktop.png",
+    "evidence/rescue-mobile.png",
+    "evidence/rescue-finale-win.png",
+    "evidence/assessment-mobile.png",
+    "evidence/typography-assessment-mobile.png",
+    "evidence/typography-desktop.png",
+    "evidence/typography-mobile.png",
+    "evidence/reading-desktop.png",
+    "evidence/reading-mobile.png",
+    "evidence/home-mobile.png",
+    "evidence/starlight-post-sound-mobile.png",
+    "evidence/tutorial-desktop.png",
+    "evidence/tutorial-mobile.png",
+    "evidence/star-refresh-desktop.png",
+    "evidence/star-refresh-mobile.png",
+    "evidence/star-refresh-tutorial.png",
+    "evidence/student-copy.png"
+  ],
+  "scope": "In-game map reading and graph interpretation revision. Standalone assessment code unchanged; prior detailed assessment checks retained with original date. Fresh in-game checks listed below.",
+  "assessment": {
+    "codes": [
+      "9수02-05",
+      "9수02-06"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": false,
+    "mobile": true,
+    "width": 390,
+    "teacherReview": "Shared module: moon-clockwork explanation and review saved, reloaded and checked",
+    "exportEvidence": "All four final export previews parsed from live DOM: correct game, criteria, attempt history and downloadable Blob. Earlier moon JSON downloaded and independently parsed.",
+    "consoleErrors": 0,
+    "jsonUiRemoved": true
+  },
+  "checks": [
+    "False factorization with correct final number rejected",
+    "Hint and retry successes excluded from independent evidence",
+    "Coordinate order and plotting; reading and constructing graphs",
+    "Forest separates integer/rational and real extension",
+    "Prime factorization meaning, construction and exponents",
+    "Reload persistence and teacher review",
+    "Mobile 390px without horizontal overflow",
+    "Per-game JSON export preview and download link",
+    "New generated controls and mobile layout verified; game states and tutorial replay checked."
+  ],
+  "priorGameplayReview": {
+    "checkedAt": "2026-10-27T09:20:32.475Z",
+    "sourceHash": "a89156fbc7d08642d9bad3dc78e9c8d1a47474707ffc983c2db3885dc35489e0"
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "referenceGames": [
+      "forest",
+      "soinsu"
+    ],
+    "fonts": {
+      "title": "Jua",
+      "display": "Do Hyeon",
+      "body": "Gowun Dodum"
+    },
+    "checks": [
+      "Computed font roles match reference game tokens",
+      "Self-hosted WOFF2 and original licenses included",
+      "Desktop and 390px screenshots inspected",
+      "No horizontal overflow or clipped input controls",
+      "Math signs, coordinates and graph labels remain readable",
+      "No console errors"
+    ],
+    "actions": "Rechecked revision desktop and mobile at 390px; existing self-hosted typography unchanged",
+    "screenshots": [
+      "evidence/typography-assessment-mobile.png",
+      "evidence/typography-desktop.png",
+      "evidence/typography-mobile.png"
+    ],
+    "checkedAt": "2026-10-27T10:25:21.328Z"
+  },
+  "priorSourceHash": "a89156fbc7d08642d9bad3dc78e9c8d1a47474707ffc983c2db3885dc35489e0",
+  "priorReview": {
+    "checkedAt": "2026-10-27T09:48:29.501Z",
+    "sourceHash": "7c9e38c95cbde4e088cf43b138d4470f5d181a5e89a146290cecfbd2a29dc2d5"
+  },
+  "revision": {
+    "status": "passed",
+    "viewportDesktop": [
+      1280,
+      713
+    ],
+    "viewportMobile": [
+      390,
+      844
+    ],
+    "consoleErrors": 0,
+    "checks": [
+      "No numeric destination coordinates in mission list, marker titles or default map description",
+      "No answer path or future event preview before submission",
+      "Mission 1 swapped coordinates rejected; corrected retry excluded; shelter first success counted; mission won",
+      "Mission 7 current-time graph answer rejected; correct dangerous-arrival interpretation recorded but flight blocked",
+      "Two waits change arrival to safe time; read new graph value then cross, deliver and win",
+      "Mission 8 asks both crossing times, including second crossing before allowing flight",
+      "Text-map assistance excludes later coordinate answer from independent successes",
+      "Reload preserves attempts and independent counts; report JSON parsed from UI",
+      "Report contains first response, retry, correct dangerous prediction, timestamps, codes and help events",
+      "New learner warning/cancel preserves records",
+      "390px graph and judgment inputs visible together; no overflow"
+    ]
+  },
+  "previousReview": {
+    "checkedAt": "2026-10-29T07:09:38.701Z",
+    "sourceHash": "e87c68d3b0b4c53fa113c5a7ded9d460a06b1bfce6a4ebe115e1e37076ef6e38"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:27.767Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
+    "previousSourceHash": "87a4171a1dda43b383973a2b1b9ad228df689da07a0516f2fa951a3b802920b7"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "First mission two coordinate submissions and three-star win",
+      "Early route choice and free waypoint hidden",
+      "Judgment record available in details"
+    ]
+  },
+  "tutorialRevision": {
+    "status": "passed",
+    "firstVisit": true,
+    "actualActionsToFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "noAutomaticReplayAfterSeen": true,
+    "desktopTargetUncovered": true,
+    "mobileWidth": 390,
+    "mobileTargetUncovered": true,
+    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
+    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
+    "negativeChecks": [
+      "Moon wrong part length does not advance",
+      "Cloud wrong representative value does not advance",
+      "Cloud Enter on quantity cannot craft before craft step",
+      "Frost repeated click cannot skip temperature lesson"
+    ],
+    "browserConsoleErrors": 0
+  },
+  "qualityRefresh": {
+    "status": "passed",
+    "stages": 12,
+    "newStageUI": {
+      "firstMission": "won, 3 stars, 6 turns",
+      "lastMission": "layout and coordinate controls checked"
+    },
+    "desktop": 1280,
+    "mobile": 390,
+    "mobileScrollWidth": 376,
+    "generatedButtons": "control-frame-v2.png",
+    "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
+    "assessmentReuse": "Assessment files unchanged, previous browser checks retained; all automated tests rerun",
+    "consoleErrors": 0
+  },
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:34.909Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
+  },
+  "previousCopyReview": {
+    "checkedAt": "2026-10-29T08:36:53.340Z",
+    "sourceHash": "e61e12fe22547314694c097fef31215d7ea77f4c643e6191ffa124c07efca290"
+  },
+  "studentCopyRevision": {
+    "reportOpened": true,
+    "proceduralExplanationRemoved": true,
+    "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T01:16:50.023Z",
+    "sourceHash": "be99aaf06686ebb945f006fbcb866936060b7f2e0226c1a618669c68b4fb0d9f",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "starlight-post",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
+  }
+}

@@ -11,3 +11,6 @@ await (await import('node:fs/promises')).writeFile('dist/build-info.json',JSON.s
 
 await cp('theme','dist/theme',{recursive:true});
 await copyFile('typography.css','dist/typography.css');
+
+for(const f of ['math-display.mjs','math-display.css','math-setup.mjs'])await copyFile(f,'dist/'+f);
+await cp('vendor','dist/vendor',{recursive:true});
