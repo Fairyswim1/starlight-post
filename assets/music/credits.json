@@ -1,0 +1,42 @@
+{
+  "title": "별바람을 타고",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "별바람을 타고",
+    "root": 62,
+    "bpm": 74,
+    "color": "glass",
+    "minor": false,
+    "motif": [
+      0,
+      7,
+      9,
+      12,
+      14,
+      12,
+      9,
+      7
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 74,
+      "seconds": 51.8918820861678,
+      "peak": 0.2936131191154893,
+      "rms": 0.06682932857701573,
+      "seamDelta": 0.008412894041147125,
+      "sha256": "d79be430a8ca53fa69987a023dac80ff7173da746191ac12cfd302a07a391540"
+    },
+    {
+      "mode": "energy",
+      "bpm": 98,
+      "seconds": 39.183673469387756,
+      "peak": 0.37769894734911047,
+      "rms": 0.08452463786108705,
+      "seamDelta": 0.006932176439950862,
+      "sha256": "ce269a6cf1999bb71077def4d1be06e1fd5471e51ac3afd32593a7d57be8298f"
+    }
+  ]
+}

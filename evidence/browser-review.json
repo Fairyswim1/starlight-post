@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:39.372Z",
-  "sourceHash": "5cb20dd66edcbe0927fedcfbe9c2728303cae09e13a8c22a911b7420e3c65dd0",
+  "sourceHash": "b6115ccb9e55d78a317d04987c5f927a6bef193b1f825a82027c64b67890e8db",
   "screenshots": [
     "evidence/math-starlight-post-desktop.png",
     "evidence/math-starlight-post-mobile.png",
@@ -54,5 +54,26 @@
   "limitations": [
     "This revision checks all starting layouts, representative play and the existing complete engine test suite; it does not replay every stage to victory.",
     "No student learning-effect study."
-  ]
+  ],
+  "audioRefresh": {
+    "id": "starlight-post",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  }
 }
