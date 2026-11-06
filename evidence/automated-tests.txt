@@ -2,234 +2,254 @@ TAP version 13
 # Subtest: every advertised skill has three varied tasks per form; source pages are present
 ok 1 - every advertised skill has three varied tasks per form; source pages are present
   ---
-  duration_ms: 5.3625
+  duration_ms: 6.5773
   ...
 # Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
 ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
   ---
-  duration_ms: 0.8771
+  duration_ms: 1.2068
   ...
 # Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
 ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
   ---
-  duration_ms: 0.5417
+  duration_ms: 0.89
   ...
 # Subtest: incorrect, assisted, and retry successes cannot produce independent credit
 ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
   ---
-  duration_ms: 2.6441
+  duration_ms: 3.9013
   ...
 # Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
 ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
   ---
-  duration_ms: 0.2958
+  duration_ms: 0.3834
   ...
 # Subtest: independent evidence does not automatically grade explanations or formal completion
 ok 6 - independent evidence does not automatically grade explanations or formal completion
   ---
-  duration_ms: 0.7721
+  duration_ms: 1.1242
   ...
 # Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
 ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
   ---
-  duration_ms: 0.4498
+  duration_ms: 0.6438
   ...
 # Subtest: comparison keys agree with independent arithmetic, including negative square roots
 ok 8 - comparison keys agree with independent arithmetic, including negative square roots
   ---
-  duration_ms: 0.4749
+  duration_ms: 0.62
   ...
 # Subtest: ordered pairs, signs, axes and all four quadrants
 ok 9 - ordered pairs, signs, axes and all four quadrants
   ---
-  duration_ms: 2.1363
+  duration_ms: 4.7749
   ...
 # Subtest: every coordinate pair has a unit-step Manhattan route in both orders
 ok 10 - every coordinate pair has a unit-step Manhattan route in both orders
   ---
-  duration_ms: 62.2767
+  duration_ms: 83.4664
   ...
 # Subtest: all 12 missions solved; replay checks independent fuel, time, capacity and deadline invariants
 ok 11 - all 12 missions solved; replay checks independent fuel, time, capacity and deadline invariants
   ---
-  duration_ms: 103.258
+  duration_ms: 122.4849
   ...
 # Subtest: one seat: passing a second rescue while occupied does not collect them; wrong shelter does not deliver
 ok 12 - one seat: passing a second rescue while occupied does not collect them; wrong shelter does not deliver
   ---
-  duration_ms: 0.2417
+  duration_ms: 0.2396
   ...
 # Subtest: nearby-first strategy fails urgent mission; pickup alone never satisfies a deadline
 ok 13 - nearby-first strategy fails urgent mission; pickup alone never satisfies a deadline
   ---
-  duration_ms: 0.3461
+  duration_ms: 0.3456
   ...
 # Subtest: deadline and fuel boundaries allow success exactly on the final turn and final fuel unit
 ok 14 - deadline and fuel boundaries allow success exactly on the final turn and final fuel unit
   ---
-  duration_ms: 0.1698
+  duration_ms: 0.1706
   ...
 # Subtest: gates are a real prerequisite; changing axis order cannot bypass full-height barrier
 ok 15 - gates are a real prerequisite; changing axis order cannot bypass full-height barrier
   ---
-  duration_ms: 0.6227
+  duration_ms: 1.3425
   ...
 # Subtest: weather uses ARRIVAL time; waiting changes safe entry and costs no fuel
 ok 16 - weather uses ARRIVAL time; waiting changes safe entry and costs no fuel
   ---
-  duration_ms: 1.1661
+  duration_ms: 0.6504
   ...
 # Subtest: refuel is single-use and essential; rescue-first route runs out
 ok 17 - refuel is single-use and essential; rescue-first route runs out
   ---
-  duration_ms: 0.9164
+  duration_ms: 1.062
   ...
 # Subtest: previews do not mutate state; invalid route is atomic; terminal state blocks actions
 ok 18 - previews do not mutate state; invalid route is atomic; terminal state blocks actions
   ---
-  duration_ms: 0.7654
+  duration_ms: 0.7653
   ...
 # Subtest: finale needs the switch, weather timing and refueling; help affects rewards
 ok 19 - finale needs the switch, weather timing and refueling; help affects rewards
   ---
-  duration_ms: 54.8089
+  duration_ms: 63.7963
   ...
 # Subtest: mission 9 offers a genuine time-versus-fuel tradeoff: both routes win
 ok 20 - mission 9 offers a genuine time-versus-fuel tradeoff: both routes win
   ---
-  duration_ms: 0.2243
+  duration_ms: 0.2563
   ...
 # Subtest: Fractions bind only their denominator, preserving rational coefficients and signs
 ok 21 - Fractions bind only their denominator, preserving rational coefficients and signs
   ---
-  duration_ms: 1.7385
+  duration_ms: 1.7227
   ...
 # Subtest: Math renders decimals, powers, coordinates, comparisons and operations without changing original source
 ok 22 - Math renders decimals, powers, coordinates, comparisons and operations without changing original source
   ---
-  duration_ms: 15.9568
+  duration_ms: 18.3355
   ...
 # Subtest: Text and unsafe input are escaped; no HTML commands are accepted
 ok 23 - Text and unsafe input are escaped; no HTML commands are accepted
   ---
-  duration_ms: 0.3153
+  duration_ms: 0.3701
   ...
 # Subtest: Every actual prompt, hint and choice preserves its text across all three variants
 ok 24 - Every actual prompt, hint and choice preserves its text across all three variants
   ---
-  duration_ms: 10.5233
+  duration_ms: 15.3789
   ...
 # Subtest: Blank symbols and incomplete learner notation stay readable
 ok 25 - Blank symbols and incomplete learner notation stay readable
   ---
-  duration_ms: 0.5946
+  duration_ms: 1.1139
   ...
 # Subtest: music starts only after explicit play; loops and resumes without resetting position
 ok 26 - music starts only after explicit play; loops and resumes without resetting position
   ---
-  duration_ms: 1.5522
+  duration_ms: 2.803
   ...
 # Subtest: mode change preserves playing state and writes only preferences
 ok 27 - mode change preserves playing state and writes only preferences
   ---
-  duration_ms: 2.1161
+  duration_ms: 3.1388
   ...
 # Subtest: saved mode and volume load without autoplay
 ok 28 - saved mode and volume load without autoplay
   ---
-  duration_ms: 0.2845
+  duration_ms: 0.4801
   ...
 # Subtest: invalid preferences and modes cannot select arbitrary sources
 ok 29 - invalid preferences and modes cannot select arbitrary sources
   ---
-  duration_ms: 0.2601
+  duration_ms: 0.3877
   ...
 # Subtest: blocked playback exposes recovery without claiming playback
 ok 30 - blocked playback exposes recovery without claiming playback
   ---
-  duration_ms: 0.2681
+  duration_ms: 0.4189
   ...
 # Subtest: pause cancels a pending play state update
 ok 31 - pause cancels a pending play state update
   ---
-  duration_ms: 0.2254
+  duration_ms: 0.3503
   ...
 # Subtest: older play completion cannot silence the newer request
 ok 32 - older play completion cannot silence the newer request
   ---
-  duration_ms: 0.2489
+  duration_ms: 0.3812
   ...
 # Subtest: map answers require signed x,y in order; blank is not zero
 ok 33 - map answers require signed x,y in order; blank is not zero
   ---
-  duration_ms: 2.1322
+  duration_ms: 2.6207
   ...
 # Subtest: retry, refresh and repeated destination labels cannot mint first-success evidence
 ok 34 - retry, refresh and repeated destination labels cannot mint first-success evidence
   ---
-  duration_ms: 5.1008
+  duration_ms: 6.4337
   ...
 # Subtest: help before response persists; later help does not erase earlier independent work
 ok 35 - help before response persists; later help does not erase earlier independent work
   ---
-  duration_ms: 0.3929
+  duration_ms: 0.5872
   ...
 # Subtest: weather is judged at crossing time, not current time or final arrival
 ok 36 - weather is judged at crossing time, not current time or final arrival
   ---
-  duration_ms: 1.2292
+  duration_ms: 1.2189
   ...
 # Subtest: each storm crossing is considered; taking a detour supplies no graph evidence
 ok 37 - each storm crossing is considered; taking a detour supplies no graph evidence
   ---
-  duration_ms: 0.4402
+  duration_ms: 0.3728
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
 ok 38 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 1.931
+  duration_ms: 2.9221
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
 ok 39 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 82.8453
+  duration_ms: 87.643
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
 ok 40 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.533
+  duration_ms: 0.8314
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
 ok 41 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.3003
+  duration_ms: 0.3879
   ...
 # Subtest: unavailable storage does not prevent sound playback
 ok 42 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.4103
+  duration_ms: 0.6734
   ...
-# Subtest: first visit uses isolated practice state and leaves existing progress untouched
-ok 43 - first visit uses isolated practice state and leaves existing progress untouched
+# Subtest: first visit always starts, including an old shared off URL
+ok 43 - first visit always starts, including an old shared off URL
   ---
-  duration_ms: 3.6122
+  duration_ms: 4.1398
   ...
-# Subtest: skip and replay are per game and replay cannot overwrite learning records
-ok 44 - skip and replay are per game and replay cannot overwrite learning records
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 44 - opening, abandoning, and refreshing do not mark the guide finished
   ---
-  duration_ms: 0.5282
+  duration_ms: 1.5204
   ...
-# Subtest: storage denied can still skip without a redirect loop
-ok 45 - storage denied can still skip without a redirect loop
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 45 - completion and explicit skip persist per game, with a clean shareable URL
   ---
-  duration_ms: 0.2778
+  duration_ms: 3.2718
   ...
-1..45
-# tests 45
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 46 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.7509
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 47 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.4155
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 48 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.52
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 49 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.5466
+  ...
+1..49
+# tests 49
 # suites 0
-# pass 45
+# pass 49
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 359.2663
+# duration_ms 434.4942

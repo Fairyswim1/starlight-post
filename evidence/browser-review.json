@@ -1,11 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:39.372Z",
-  "sourceHash": "b6115ccb9e55d78a317d04987c5f927a6bef193b1f825a82027c64b67890e8db",
+  "sourceHash": "d72c65e3e3c9afde0d580e46b4c07993200564ad7bbb7f2767b9c00aa68afb3c",
   "screenshots": [
     "evidence/math-starlight-post-desktop.png",
     "evidence/math-starlight-post-mobile.png",
-    "evidence/math-starlight-post-assessment.png"
+    "evidence/math-starlight-post-assessment.png",
+    "evidence/first-visit-mobile.png"
   ],
   "checks": [
     "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
@@ -75,5 +76,18 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:45:02.464Z",
+    "id": "starlight-post",
+    "firstVisitOff": true,
+    "startedStep": "지도에서 A를 찾아요",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "keyboardEscape": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "b6115ccb9e55d78a317d04987c5f927a6bef193b1f825a82027c64b67890e8db",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }
